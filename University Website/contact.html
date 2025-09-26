@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Brixton University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="main.html">
+                <img src="styles/logo.jpg" alt="Brixton University Logo" height="50" class="d-inline-block">
+            </a>
+            <span class="navbar-text text-white fs-4 me-auto ms-3 fw-bold d-none d-md-block">Brixton University</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hostel.html">Hostel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notice.html">Notice Board</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="display-4 mb-4">Contact Us</h1>
+                <p class="lead">We're here to help! Get in touch with us for any inquiries about admissions, programs, or campus life.</p>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <!-- Contact Information Cards -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-geo-alt-fill fs-1 text-primary mb-3"></i>
+                        <h3 class="h5">Visit Us</h3>
+                        <p class="mb-0">123 Brixton Road<br>London, UK</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-telephone-fill fs-1 text-primary mb-3"></i>
+                        <h3 class="h5">Call Us</h3>
+                        <p class="mb-0">+44 20 1234 5678<br>Mon-Fri, 9:00-17:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-envelope-fill fs-1 text-primary mb-3"></i>
+                        <h3 class="h5">Email Us</h3>
+                        <p class="mb-0">info@brixtonuniversity.ac.uk<br>admissions@brixtonuniversity.ac.uk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-8">
+                <!-- Contact Form -->
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="h4 mb-0">Send us a Message</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="#" method="post" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <div class="invalid-feedback">Please provide your name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please provide a valid email.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                    <div class="invalid-feedback">Please provide a subject.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                    <div class="invalid-feedback">Please provide your message.</div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Quick Links -->
+                <div class="card mb-4">
+                    <div class="card-header bg-light">
+                        <h3 class="h5 mb-0">Quick Links</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-mortarboard me-2"></i>
+                                <a href="#" class="text-decoration-none">Admissions</a>
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-book me-2"></i>
+                                <a href="#" class="text-decoration-none">Programs</a>
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-calendar-event me-2"></i>
+                                <a href="#" class="text-decoration-none">Events</a>
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-question-circle me-2"></i>
+                                <a href="#" class="text-decoration-none">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Office Hours -->
+                <div class="card">
+                    <div class="card-header bg-light">
+                        <h3 class="h5 mb-0">Office Hours</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><strong>Monday - Friday:</strong><br>9:00 AM - 5:00 PM</li>
+                            <li class="mb-2"><strong>Saturday:</strong><br>9:00 AM - 1:00 PM</li>
+                            <li><strong>Sunday:</strong><br>Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123 Brixton Road<br>
+                        London, UK<br>
+                        Phone: +44 20 1234 5678<br>
+                        Email: info@brixtonuniversity.ac.uk
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-light">About Us</a></li>
+                        <li><a href="courses.html" class="text-light">Programs</a></li>
+                        <li><a href="hostel.html" class="text-light">Hostel</a></li>
+                        <li><a href="contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2025 Brixton University. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Form Validation Script -->
+    <script>
+    (function () {
+        'use strict'
+        var forms = document.querySelectorAll('.needs-validation')
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+    </script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Brixton University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="main.html">
+                <img src="styles/logo.jpg" alt="Brixton University Logo" height="50" class="d-inline-block">
+            </a>
+            <span class="navbar-text text-white fs-4 me-auto ms-3 fw-bold d-none d-md-block">Brixton University</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hostel.html">Hostel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notice.html">Notice Board</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="display-4 mb-4">Our Academic Programs</h1>
+                <p class="lead">Explore our diverse range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills needed to succeed in their chosen careers.</p>
+            </div>
+        </div>
+
+        <!-- Program Categories -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-briefcase-fill fs-1 text-primary mb-3"></i>
+                        <h3 class="h4 mb-3">Business Studies</h3>
+                        <p class="mb-4">Develop leadership skills and business acumen with our comprehensive business programs.</p>
+                        <a href="#business" class="btn btn-outline-primary">View Programs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-cpu-fill fs-1 text-primary mb-3"></i>
+                        <h3 class="h4 mb-3">Engineering</h3>
+                        <p class="mb-4">Transform the future with cutting-edge engineering and technology programs.</p>
+                        <a href="#engineering" class="btn btn-outline-primary">View Programs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-book fs-1 text-primary mb-3" style="font-size: 2.5rem !important;"></i>
+                        <h3 class="h4 mb-3">Psychology</h3>
+                        <p class="mb-4">Understand human behavior and make a difference in people's lives.</p>
+                        <a href="#psychology" class="btn btn-outline-primary">View Programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Psychology Programs Section -->
+        <div id="psychology" class="card mb-5">
+            <div class="card-header bg-primary text-white">
+                <h2 class="h4 mb-0">Psychology Programs</h2>
+            </div>
+            <div class="card-body">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+                        <i class="bi bi-brain fs-1 text-primary mb-3" style="font-size: 4rem !important;"></i>
+                        <h3 class="h5">Department of Psychology</h3>
+                        <p class="mb-0">Discover the complexities of human behavior and mental processes</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Program</th>
+                                        <th>Duration</th>
+                                        <th>Key Focus Areas</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Bachelor of Psychology</td>
+                                        <td>3 Years</td>
+                                        <td>Clinical Psychology, Cognitive Psychology, Social Psychology</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MSc in Psychology</td>
+                                        <td>2 Years</td>
+                                        <td>Research Methods, Advanced Clinical Practice, Behavioral Analysis</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Table -->
+        <div class="card mb-5">
+            <div class="card-header bg-primary text-white">
+                <h2 class="h4 mb-0">Available Programs</h2>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Course</th>
+                                <th>Duration</th>
+                                <th>Annual Fees</th>
+                                <th>Eligibility</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bachelor of Business Administration (BBA)</td>
+                                <td>3 Years</td>
+                                <td>£9,000</td>
+                                <td>10+2 with >80% Marks</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-primary">Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>Master of Business Administration (MBA)</td>
+                                <td>2 Years</td>
+                                <td>£12,000</td>
+                                <td>Bachelor's Degree with 3.6+ GPA</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-primary">Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>Bachelor of Engineering (B.Eng)</td>
+                                <td>4 Years</td>
+                                <td>£11,500</td>
+                                <td>10+2 with Science stream with >80% marks</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-primary">Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>Bachelor of Psychology (B.Psy)</td>
+                                <td>3 Years</td>
+                                <td>£8,500</td>
+                                <td>10+2 with >80% Marks</td>
+                                <td><a href="#" class="btn btn-sm btn-outline-primary">Details</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center py-5 bg-light rounded">
+            <h2 class="mb-4">Ready to Start Your Journey?</h2>
+            <p class="lead mb-4">Get in touch with our admissions team to learn more about our programs and application process.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">Contact Admissions</a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123 Brixton Road<br>
+                        London, UK<br>
+                        Phone: +44 20 1234 5678<br>
+                        Email: info@brixtonuniversity.ac.uk
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-light">About Us</a></li>
+                        <li><a href="courses.html" class="text-light">Programs</a></li>
+                        <li><a href="hostel.html" class="text-light">Hostel</a></li>
+                        <li><a href="contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2025 Brixton University. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</body>
+</html>
